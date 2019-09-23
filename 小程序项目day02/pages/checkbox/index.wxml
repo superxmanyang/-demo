@@ -1,0 +1,20 @@
+<view>
+<radio-group bindchange="handleChange">
+    <radio value="nan">男</radio>
+    <radio value="nv">女</radio>
+</radio-group>
+</view>
+
+<view>
+ 你选的是{{choose}}
+</view>
+
+<checkbox-group bindchange="handleChange2">
+ <checkbox value="j" >鸡</checkbox>
+  <checkbox value="y" >鸭</checkbox>
+  <checkbox value="c" >小聪</checkbox> 
+  </checkbox-group>
+
+
+<view>你选中的值:{{checkvalue}}</view>
+<view>{{[1,2,3,4,5,6]}}</view>

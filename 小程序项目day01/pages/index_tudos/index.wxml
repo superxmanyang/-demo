@@ -1,0 +1,10 @@
+<input type="text" bindinput="handleInput">asdas</input>
+<text>{{value}}</text>
+
+<button bindtap="handleTap">确认</button>
+
+
+<view wx:for="{{list}}"  wx:for-index="index" wx:for-item="item" wx:key="id">
+
+{{index}} : {{item.text}}
+</view>

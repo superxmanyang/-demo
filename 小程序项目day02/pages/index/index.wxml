@@ -1,0 +1,14 @@
+<input type="text"  bindinput="handleInput"   />
+
+<button bindtap="handleTap" data->确认</button>
+
+
+
+<view>
+    <view wx:for="{{list}}" wx:key="id" >
+    <view bindtap="handleItemDelete" data-index="{{index}}">
+      {{index}}:{{item.name}}
+    </view>
+  </view>
+  
+</view>

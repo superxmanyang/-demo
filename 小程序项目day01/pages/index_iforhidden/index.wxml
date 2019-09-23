@@ -1,0 +1,6 @@
+<!--pages/index3/index.wxml-->
+<text wx:if="{{isShow}}">dasdasdad</text>
+
+
+  <view class="viewhidden" hidden  > <text>用毒毒毒蛇毒蛇</text>  <text>会不会被毒毒死</text> </view>
+

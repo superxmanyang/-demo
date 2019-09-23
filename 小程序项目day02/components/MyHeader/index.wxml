@@ -1,0 +1,5 @@
+<!-- components/index.wxml
+<text>components/index.wxml</text>
+<button>确认</button> -->
+
+<button bindtap="handleTap">组件{{col}}</button>

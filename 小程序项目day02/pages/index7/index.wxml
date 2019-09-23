@@ -1,0 +1,17 @@
+
+<!-- 
+  超链接
+  1 navigator (块级元素)
+  2 url 只能跳到 小程序 。。。
+  3 open-type（开放能力）
+    1 navigate  默认值 
+    2 redirect 
+    3 switchTab 
+    4 reLaunch
+  
+ -->
+
+ <navigator url="/pages/index5/index"  >index5</navigator>
+ <navigator url="/pages/index/index"  >index</navigator>
+ <!-- <navigator url="/pages/index5/index" open-type="navigate"  >index5-switchTab</navigator> -->
+

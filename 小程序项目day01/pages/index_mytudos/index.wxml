@@ -1,0 +1,11 @@
+<input type="text"  bindinput="handleInput"   />
+
+<button bindtap="handleTap">确定</button>
+
+
+<text wx:for="{{list}}"  wx:for-index="index"
+wx:for-item="item2"
+ wx:key="name"
+>
+{{index}} {{item2.name}}
+</text>

@@ -1,0 +1,7 @@
+
+
+view{
+ 
+  width: 750rpx;
+  background-color: aqua;
+}

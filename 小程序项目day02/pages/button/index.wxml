@@ -1,0 +1,33 @@
+<button size="mini">按钮</button>
+<button size="mini">按钮</button>
+<button type="primary">按钮</button>
+<button type="warn">按钮</button>
+<button  plain type="warn">按钮plain</button>
+<button loading type="warn">按钮</button>
+<view>----------</view>
+<view></view>
+<button  open-type="contact" >contact</button>
+<button  open-type="share" >share</button>
+
+
+
+
+
+<!-- 
+  getPhoneNumber
+  1 必须要用企业的appid来获取 
+  2 获取到加密数据之后 要使用 自己的后台服务器来解密 数据
+    1 把加密的数据 通过异步请求发送到后台
+    2 后台 自己 解密 这些数据
+    3 最终 手机号码的数据可以在后台 被看到 
+  
+  getUserInfo 可以直接拿到
+  launchApp 
+  openSetting 打开授权页面-微信内置
+  feedback 打开 意见反馈页面-微信内置
+ -->
+<button  open-type="getPhoneNumber" bindgetphonenumber="handleGetPhoneNumber" >getPhoneNumber</button>
+<button  open-type="getUserInfo" bindgetuserinfo="handleGetuserinfo" >getUserInfo</button>
+<button  open-type="launchApp" >launchApp</button>
+<button  open-type="openSetting" >openSetting</button>
+<button  open-type="feedback" >feedback</button>

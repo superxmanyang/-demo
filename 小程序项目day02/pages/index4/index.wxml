@@ -1,0 +1,20 @@
+<!-- 
+  1 把它当成全新的标签 （有很多地方和以前web中的图片不样）
+  2 默认的宽度和高度
+    width 320px
+    height 240px
+  3 mode 图片的渲染方式
+    1 scaleToFill 默认值 
+      把图片的内容 直接拉伸到图片的边框大小 
+    2 widthFix （类似以前网页的图片 -用得最多 ）
+        等比例的把图片内容拉伸到边框的大小
+        边框的高度会被改变
+    3 aspectFit   background-size： contain   和 cover
+      等比例的把图片内容拉伸
+      可能会出现空白区域 
+    4 aspectFill
+      等比例的把图片内容拉伸
+      可能会导致图片内容被裁剪
+  
+ -->
+<image  mode="widthFix" src="https://tva3.sinaimg.cn/large/005R6Otmgy1g75t5fn6owj303w046746.jpg"></image>

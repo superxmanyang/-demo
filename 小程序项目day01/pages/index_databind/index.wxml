@@ -1,0 +1,9 @@
+<!-- 实现输入框跟显示的绑定。 -->
+
+    
+<input type="text" bindinput="handleInput" />
+
+
+
+<view>{{value}}</view>
+

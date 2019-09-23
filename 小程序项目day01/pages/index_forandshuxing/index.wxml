@@ -1,0 +1,30 @@
+<view wx:for="{{Arr}}" wx:key="*this" wx:for-index="index1" wx:for-item="item1" >
+{{index1}}  {{item1}}
+
+</view>
+
+<view>===================</view>
+
+<view wx:for="{{richwomen}}"  >
+{{index}}  {{item}}
+</view>
+
+
+<view>===================</view>
+
+
+<view data-id="{{num}}">属性1</view>
+
+<view>===================</view>
+
+<!-- <checkbox checked=" {{false}}" >点我点我</checkbox> -->
+
+<checkbox checked="{{isChecked}}" >点我点我</checkbox>
+<checkbox checked="{{NAN}}" >点我点我</checkbox>
+<checkbox checked="{{undefined}}" >点我点我</checkbox>
+<checkbox checked="{{null}}" >点我点我</checkbox>
+<checkbox checked="{{false}}" >点我点我</checkbox>
+<checkbox checked="{{''}}" >点我点我</checkbox> 
+
+
+<view>===================</view>

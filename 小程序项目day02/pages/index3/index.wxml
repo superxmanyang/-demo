@@ -1,0 +1,4 @@
+<!--pages/index3/index.wxml-->
+<view>view 长按</view>
+<text selectable>text 长按</text>
+<text decode> 普&nbsp;通</text>

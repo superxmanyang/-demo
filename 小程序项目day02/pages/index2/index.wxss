@@ -1,0 +1,6 @@
+view {
+  background-color: red;
+}
+view text {
+  background-color: blue;
+}

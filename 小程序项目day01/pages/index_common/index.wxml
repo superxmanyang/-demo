@@ -1,0 +1,11 @@
+
+<view>{{name}}</view>
+
+<span>{{name}}</span><span>{{name}}</span>
+   
+
+<view>
+ {{fupo.name}} 
+  {{fupo.age}} 
+   {{fupo.height}} 
+</view>   

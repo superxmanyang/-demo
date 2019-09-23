@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/send/index",
+    "pages/checkbox/index",
+    "pages/button/index",
+    "pages/index9/index",
+    "pages/index8/index",
+    "pages/index7/index",
+    "pages/index5/index",
+    "pages/index6/index",
+    
+    "pages/index4/index",
+    "pages/index3/index",
+    "pages/index2/index",
+    
+    "pages/index/index",
+    
+    
+    
+    
+    
+    
+    
+    
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

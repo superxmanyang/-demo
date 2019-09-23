@@ -1,0 +1,19 @@
+
+<!-- <text bindtap="handleclick">
+有种点我啊
+</text> -->
+      
+
+<!-- 
+错误的方式
+<text bindtap="handleClick(123)"
+>
+有种点我啊
+<text> -->
+
+
+
+                             <!-- data里面的属性随意设置 -->
+<text bindtap="handleClick"    data-color="red" data-id="01" data-hi="wechat"> pick me boy! </text>
+
+

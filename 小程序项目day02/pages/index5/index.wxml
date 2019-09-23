@@ -1,0 +1,14 @@
+<swiper indicator-dots circular autoplay>
+  <swiper-item>
+    <image src="https://gw.alicdn.com/imgextra/i3/141/O1CN017rRfCI1CucP5FqvRD_!!141-0-lubanu.jpg" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://gw.alicdn.com/imgextra/i3/144/O1CN01fRjVHZ1CvzakDTh4x_!!144-0-lubanu.jpg" mode="widthFix"></image>
+  </swiper-item>
+</swiper>
+
+<!-- <image src="https://gw.alicdn.com/imgextra/i3/141/O1CN017rRfCI1CucP5FqvRD_!!141-0-lubanu.jpg"  mode="widthFix" ></image>  -->
+<navigator open-type="navigateBack">返回</navigator>
