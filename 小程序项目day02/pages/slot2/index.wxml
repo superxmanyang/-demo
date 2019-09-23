@@ -1,1 +1,11 @@
-<MyTabs></MyTabs>
+<MyTabs titleList="{{titleList}}" binditemChange="handleItemChange" currentIndex="{{index}}">
+
+
+<view wx:if="{{index===0}}">要闻0</view>
+
+<view wx:elif="{{index===1}}">推荐1</view>
+
+<view wx:else>原创2</view>
+
+
+</MyTabs>
