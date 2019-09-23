@@ -1,0 +1,22 @@
+<view class="my_tabs">
+
+<view class="tabs_title">
+<view class="title_item {{index===currentIndex?'active':''}}"
+wx:for="{{titleList}}"
+wx:key="id"
+bindtap="handleTap"
+data-index="{{index}}"
+
+
+>
+{{item.text}}
+</view>
+</view>
+
+
+
+<view class="tabs_content">
+内容
+</view>
+
+</view>

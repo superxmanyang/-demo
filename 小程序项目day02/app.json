@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/slot2/index",
+    "pages/slot1/index",
     "pages/send/index",
     "pages/checkbox/index",
     "pages/button/index",
@@ -8,21 +10,12 @@
     "pages/index7/index",
     "pages/index5/index",
     "pages/index6/index",
-    
     "pages/index4/index",
     "pages/index3/index",
     "pages/index2/index",
-    
     "pages/index/index",
-    
-    
-    
-    
-    
-    
-    
-    
     "pages/logs/logs"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",
